@@ -1,0 +1,33 @@
+.combo-box-base {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+    -fx-font-size: 16px;
+    -fx-text-alignment: center;
+}
+
+.combo-box{
+    -fx-text-fill: #2e96ff;
+    -fx-alignment: center;
+    -fx-prompt-text-fill: #2e96ff;
+
+}
+
+.cb-main {
+    -fx-alignment: center;
+    -fx-prompt-text-fill: #2e96ff;
+    -fx-highlight-fill: #2e96ff;
+}
+.add-cat-button {
+    -fx-background-color: #ecf6ff;
+}
+.add-cat-button:hover{
+    -fx-background-color: #dde8ff;
+}
+.add-cat-button:pressed{
+    -fx-background-color: #dde8ff;
+}
+
